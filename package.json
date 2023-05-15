@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/Joshbam-joshwilly/Webpack#readme",
   "devDependencies": {
+    "css-loader": "^6.7.3",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
     "webpack": "^5.82.1",
     "webpack-cli": "^5.1.1"
   }
