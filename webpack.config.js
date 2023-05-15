@@ -8,7 +8,17 @@ module.exports = {
 },
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: '[name].js',
+        filename: '[name][contenthash].js',
+    },
+    devServer: {
+        static: {
+            directory: path.resolve(__dirname, 'dist')
+        },
+        port: 2001,
+        open: true,
+        hot: true,
+        compress: true,
+        historyApiFallback: true,
     },
     module: {
         rules: [
