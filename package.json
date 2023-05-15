@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Joshbam-joshwilly/Webpack#readme",
   "devDependencies": {
     "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.1",
     "sass": "^1.62.1",
     "sass-loader": "^13.2.2",
     "style-loader": "^3.3.2",
