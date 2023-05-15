@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/Joshbam-joshwilly/Webpack#readme",
   "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.1",
     "sass": "^1.62.1",
