@@ -1,0 +1,24 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "Author: Joshua ALANA",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshbam-joshwilly/Webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshbam-joshwilly/Webpack/issues"
+  },
+  "homepage": "https://github.com/Joshbam-joshwilly/Webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
